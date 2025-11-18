@@ -40,10 +40,14 @@ fn Home() -> Element {
                 h1 { class: "text-white font-semibold text-5xl mb-2", "Genshin that Impacted" }
                 h2 { class: "text-white-500 text-3xl mb-2", "This is a test" }
                 div { class: "flex flex-row transition-all duration-200",
-                    button { class: "bg-black/25 text-white py-2 px-4 m-1 rounded hover:bg-black/50",
+                    Link {
+                        class: "bg-black/25 text-white py-2 px-4 m-1 rounded hover:bg-black/50",
+                        to: "/characters",
                         "Characters"
                     }
-                    button { class: "bg-black/25 text-white py-2 px-4 m-1 rounded hover:bg-black/50",
+                    Link {
+                        class: "bg-black/25 text-white py-2 px-4 m-1 rounded hover:bg-black/50",
+                        to: "/",
                         "I am feeling Lucky"
                     }
                 }
