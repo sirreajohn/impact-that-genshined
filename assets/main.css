@@ -1,0 +1,9 @@
+/* App-wide styling */
+body {
+    /* background-color: #0f1116; */
+    /* background-image: url("./hero_bg.jpg") center/cover no-repeat; */
+    /* background-color: rgb(138, 43, 226); */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 20px; */
+}
